@@ -17,4 +17,4 @@ id = "a352a54e9c9940e1813e7e58f3e0ba52"
 # মনে রাখবেন: আসল পাসওয়ার্ডটি এখানে দেবেন না।
 # আসল পাসওয়ার্ডটি ক্লাউডফ্লেয়ার ড্যাশবোর্ডে Settings > Variables এ সেট করবেন
 # অথবা কমান্ড লাইনে: npx wrangler secret put ADMIN_SECRET
-ADMIN_SECRET = "CHANGE_THIS_TO_YOUR_SECRET_PASSWORD"
+ADMIN_SECRET = "1"
