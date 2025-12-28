@@ -1,6 +1,12 @@
-name = "mcq-api"
+# ক্লাউডফ্লেয়ার আপনার প্রজেক্টের নাম দেখছে "redesigned-happiness"
+# তাই নাম পরিবর্তন করে এটি দেওয়া হলো যাতে ওয়ার্নিং না আসে।
+name = "redesigned-happiness"
+
 main = "src/index.js"
-compatibility_date = "2026-12-01"
+
+# তারিখটি অবশ্যই বর্তমান বা অতীতের হতে হবে। 
+# আমি একটি নিরাপদ তারিখ (2025-01-01) দিয়ে দিচ্ছি।
+compatibility_date = "2025-01-01"
 
 # KV Namespace binding
 [[kv_namespaces]]
@@ -8,6 +14,7 @@ binding = "MCQ_DB"
 id = "a352a54e9c9940e1813e7e58f3e0ba52"
 
 [vars]
-# গিটহাবে আপলোড করার সময় এখানে আসল পাসওয়ার্ড না দিয়ে ডিফল্ট কিছু রাখুন।
-# আসল পাসওয়ার্ড আপনি wrangler secret কমান্ড দিয়ে সেট করবেন।
+# মনে রাখবেন: আসল পাসওয়ার্ডটি এখানে দেবেন না।
+# আসল পাসওয়ার্ডটি ক্লাউডফ্লেয়ার ড্যাশবোর্ডে Settings > Variables এ সেট করবেন
+# অথবা কমান্ড লাইনে: npx wrangler secret put ADMIN_SECRET
 ADMIN_SECRET = "CHANGE_THIS_TO_YOUR_SECRET_PASSWORD"
