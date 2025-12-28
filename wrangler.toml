@@ -1,0 +1,13 @@
+name = "mcq-api"
+main = "src/index.js"
+compatibility_date = "2023-12-01"
+
+# KV Namespace binding
+[[kv_namespaces]]
+binding = "MCQ_DB"
+id = "a352a54e9c9940e1813e7e58f3e0ba52"
+
+[vars]
+# গিটহাবে আপলোড করার সময় এখানে আসল পাসওয়ার্ড না দিয়ে ডিফল্ট কিছু রাখুন।
+# আসল পাসওয়ার্ড আপনি wrangler secret কমান্ড দিয়ে সেট করবেন।
+ADMIN_SECRET = "CHANGE_THIS_TO_YOUR_SECRET_PASSWORD"
