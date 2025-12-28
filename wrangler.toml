@@ -1,6 +1,6 @@
 name = "mcq-api"
 main = "src/index.js"
-compatibility_date = "2023-12-01"
+compatibility_date = "2026-12-01"
 
 # KV Namespace binding
 [[kv_namespaces]]
